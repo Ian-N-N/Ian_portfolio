@@ -1,0 +1,86 @@
+* {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    body {
+      background-color: #FDFBD4;
+      color: #333;
+      line-height: 1.6;
+    }
+    header {
+      background-color: #0077b6;
+      color: #fff;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    header img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      object-fit: cover;
+      border: 3px solid #fff;
+      margin-bottom: 10px;
+    }
+    nav { 
+        background: #222; 
+        padding: 1rem; 
+        text-align: center; 
+        color: aquamarine;
+    }
+    .container {
+      max-width: 900px;
+      margin: auto;
+      padding: 20px;
+    }
+    section {
+      margin-bottom: 40px;
+    }
+    h2 {
+      margin-bottom: 10px;
+      color: #0077b6;
+    }
+    .skills, .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .card {
+      background: white;
+      padding: 15px;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #0077b6;
+      color: white;
+      text-align: center;
+      padding: 20px;
+      font-size: 0.9em;
+    }
+    .header-center h2 {
+    background: #fafafa;
+    position: relative;
+    top: -0.8rem;
+    left: 50%;
+    margin-left: -160px;
+    width: 320px;
+    text-align: center;
+    display: block;
+    color: #757575;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-size: 1.4rem;
+    font-weight: normal;
+    letter-spacing: 0.2rem;
+    padding: 0 !important;
+    font-family: "proxima nova semibold", "Helvetica Neue", Helvetica, Arial, Sans-serif;
+}
+.header-center {
+    height: 1px;
+    background: #dddddd;
+    border-bottom: #ffffff solid 1px;
+    margin-bottom: 3.2rem;
+    position: relative;
+}
